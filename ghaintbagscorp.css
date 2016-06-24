@@ -1,0 +1,43 @@
+body {
+	margin:0;
+	padding:0;
+	background-color:silver;
+	}
+.bags-container {
+	width:1000px;
+	margin:auto;
+	}
+.bags {
+	margin:30px;
+	display:inline-block;
+	}
+
+#login {
+	margin:5px 0 0 85%; 
+	}
+.addons1 { 
+	margin-top:10px;
+	font-size:25px;	
+	display:inline-block;
+	}
+.addons2 {
+	margin-top:10px;
+	font-size:25px;
+	display:inline block;
+	}
+@media screen and (max-width:500px) {
+	.addons1 {
+		display:block;
+			}
+	.addons2 { 
+		display:block;
+			}	
+	}
+@media screen and (max-width:700px) {
+	.bags {
+		display:block
+	
+	}
+		}
+	
+              
